@@ -1,0 +1,52 @@
+body{
+ background-color: #EEEEEE;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    background-color: white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.nav{
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    float: right;
+}
+
+.formdesign{
+    border: #EEEEEE;
+    padding: 20px;
+ }
+
+ .formdesign .input-group {
+    padding-bottom: 15px;
+ }
+ 
+ .formdesign label{
+    display: block;
+ }
+ 
+ .formdesign input[type="text"], .formdesign textarea {
+    width: 50%;
+ }
+
+ .formdesign input[type="submit"] {
+     background-color: black;
+     color: white;
+ }
+
