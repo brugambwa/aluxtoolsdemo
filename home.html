@@ -1,106 +1,121 @@
 <title>Web Dev - Tools Demo</title>
 
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
 <body>
-    <table width="100%" border="1">
-        <tr>
-            <td width="10%">This is the Logo</td>
-            <td colspan="2" width="80%">
-                <a href="index.html">Home</a>
-                <a href="index.html">Course Description</a>
-                <a href="index.html">Course Content</a>
-                <a href="index.html">Course Resources</a>
-                <a href="index.html">Facilitator Profile</a>
-                <a href="index.html">Contact</a>
-                <a href="index.html">Events</a>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <img src="images/banner.png" height="80px" width="100%" />
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <h3>Course Description.</h3>
-                <p>The course will be split into three main sections.</p>
-                <p>
-                <ol>
-                    <li>The first section will cover the basic principles of web development. From client server
-                        architecture, HTTP protocol as well as the basics of web development (HTML & CSS).</li>
-                    <li>The second part will cover Java-script and from end development</li>
-                </ol>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="33%">
-                <strong>Tools</strong>
+    <div class="container">
+        <div class="logo">This is the logo</div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="index.html">Course Description</a>
+            <a href="index.html">Course Content</a>
+            <a href="index.html">Course Resources</a>
+            <a href="index.html">Facilitator Profile</a>
+            <a href="index.html">Contact</a>
+            <a href="index.html">Events</a>
+        </div>
+        <table border="1">
+            <tr>
+                <td colspan="3">
+                    <img src="images/banner.png" height="80px" width="100%" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h3>Course Description.</h3>
+                    <p>The course will be split into three main sections.</p>
+                    <p>
+                    <ol>
+                        <li>The first section will cover the basic principles of web development. From client server
+                            architecture, HTTP protocol as well as the basics of web development (HTML & CSS).</li>
+                        <li>The second part will cover Java-script and from end development</li>
+                    </ol>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <strong>Tools</strong>
 
-                <p>Any IDE or code editor of your choice (Visual Studio, Sublime Text, Netbeans, Notepad++ etc). You
-                    will
-                    need MySQL (probably already installed from last term) as well as NodeJS installed.</p>
+                    <p>Any IDE or code editor of your choice (Visual Studio, Sublime Text, Netbeans, Notepad++ etc). You
+                        will
+                        need MySQL (probably already installed from last term) as well as NodeJS installed.</p>
 
-                <p>We will use GitHub for our code management and <a href="https://www.heroku.com/" target="_blank">Heroku</a> for hosting our
-                    projects.</p>
-                <p>You will also need to install <a href="https://www.postman.com/">Postman</a> for API testing (Links to an external
-                    site.))</p>
+                    <p>We will use GitHub for our code management and <a href="https://www.heroku.com/"
+                            target="_blank">Heroku</a> for hosting our
+                        projects.</p>
+                    <p>You will also need to install <a href="https://www.postman.com/">Postman</a> for API testing
+                        (Links
+                        to an external
+                        site.))</p>
 
 
-            </td>
-            <td width="33%">
-                <strong>Assignments</strong>
+                </td>
+                <td width="33%">
+                    <strong>Assignments</strong>
 
-                <p>This course will have 5 assignments, and a final project. (A Summative). The Summative will be a
-                    group
-                    project. You will be required to form groups of two. There will be two individual take home
-                    assignments
-                    and two group take home assignments, and an In-Class Quiz.</p>
-                <p>The final project will build on the work we did for the Database Management Systems Class, and we
-                    will
-                    build a web application for manipulating that database.</p>
+                    <p>This course will have 5 assignments, and a final project. (A Summative). The Summative will be a
+                        group
+                        project. You will be required to form groups of two. There will be two individual take home
+                        assignments
+                        and two group take home assignments, and an In-Class Quiz.</p>
+                    <p>The final project will build on the work we did for the Database Management Systems Class, and we
+                        will
+                        build a web application for manipulating that database.</p>
 
-            </td>
-            <td width="33%">
-                <strong>Grade Weighting</strong>
-                <ul>
-                    <li>Attendance/Participation - 10%</li>
-                    <li>Quiz - 10%</li>
-                    <li>Take Home Assignments - 40%</li>
-                    <li>Final Project - 40%</li>
-                </ul>
-                <p>You should treat me as a client. I will give you a set of requirements. Requirements can be
-                    interpreted
-                    differently, this is unavoidable. You have to meet my interpretation of the requirements to get
-                    maximum
-                    credit. If you have any doubt about what a requirement means, you should ask me to clarify.</p>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="3">This is the Course Resources</td>
-        </tr>
-        <tr>
-            <td colspan="3">This is the Facilitator Profile</td>
-        </tr>
-        <tr>
-            <td colspan="3">
-                <h4>Contact Form</h4>
-                <form>
-                    <label>Student Name:</label>
-                    <input type="text" name="student_name" placeholder="First Name Last Name"/><br/>
-                    <label>Email Address:</label>
-                    <input type="text" name="email_address" placeholder="johndoe@alueducation.com" /><br/>
-                    <label>Message:</label>
-                    <textarea name="message"></textarea><br/>
-                    <button>Submit</button>
-                </form>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2">Sessions</td>
-            <td rowspan="2">Announcements</td>
-        </tr>
-        <tr>
-            <td colspan="2">Events</td>
-        </tr>
-    </table>
+                </td>
+                <td width="33%">
+                    <strong>Grade Weighting</strong>
+                    <ul>
+                        <li>Attendance/Participation - 10%</li>
+                        <li>Quiz - 10%</li>
+                        <li>Take Home Assignments - 40%</li>
+                        <li>Final Project - 40%</li>
+                    </ul>
+                    <p>You should treat me as a client. I will give you a set of requirements. Requirements can be
+                        interpreted
+                        differently, this is unavoidable. You have to meet my interpretation of the requirements to get
+                        maximum
+                        credit. If you have any doubt about what a requirement means, you should ask me to clarify.</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">This is the Course Resources</td>
+            </tr>
+            <tr>
+                <td colspan="3">This is the Facilitator Profile</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h4>Contact Form</h4>
+                    <form class="formdesign">
+                        <div class="input-group">
+                            <label>Student Name:</label>
+                            <input type="text" name="student_name" placeholder="First Name Last Name" />
+                        </div>
+                        <div class="input-group">
+                            <label>Email Address:</label>
+                            <input type="text" name="email_address" placeholder="johndoe@alueducation.com" />
+                        </div>
+                        <div class="input-group">
+                            <label>Message:</label>
+                            <textarea name="message"></textarea>
+                        </div>
+                        <div class="input-group">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Sessions</td>
+                <td rowspan="2">Announcements</td>
+            </tr>
+            <tr>
+                <td colspan="2">Events</td>
+            </tr>
+        </table>
+    </div>
 </body>
